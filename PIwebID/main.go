@@ -39,6 +39,8 @@ func main() {
 
 func master() {
 	fmt.Println("----->,master分支")
+func test01() {
+	fmt.Println("---->,dev01分支下提交代码")
 }
 
 type WebID struct {

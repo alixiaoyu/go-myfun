@@ -37,6 +37,10 @@ func main() {
 
 }
 
+func test01() {
+	fmt.Println("---->,dev01分支下提交代码")
+}
+
 type WebID struct {
 	Links struct {
 	} `json:"Links"`

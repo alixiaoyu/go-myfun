@@ -37,6 +37,10 @@ func main() {
 
 }
 
+func master() {
+	fmt.Println("----->,master分支")
+}
+
 type WebID struct {
 	Links struct {
 	} `json:"Links"`
